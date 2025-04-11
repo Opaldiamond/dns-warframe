@@ -14,7 +14,7 @@ dns:
 
 proxies:
   - name: "free.shecan.ir"
-    type: dns
+    type: 
     server: "free.shecan.ir"
     port: 443
     tls: true
