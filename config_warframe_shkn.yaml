@@ -14,8 +14,10 @@ dns:
 
 proxies:
   - name: "free.shecan.ir"
-    type: direct
-
+    type: dns
+    server: "free.shecan.ir"
+    port: 443
+    tls: true
 proxy-groups:
   - name: "Auto"
     type: select
