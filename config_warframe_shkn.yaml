@@ -13,7 +13,7 @@ dns:
     - 185.51.200.2
 
 proxies:
-  - name: "shekandns"
+  - name: "shecandns"
     type: http
     server: "free.shecan.ir"
     port: 443
