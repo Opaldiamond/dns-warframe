@@ -14,7 +14,7 @@ dns:
 
 proxies:
   - name: "Shecandns"
-    type: direct
+    type: vmess
     server: "free.shecan.ir"
     port: 443
     tls: true
