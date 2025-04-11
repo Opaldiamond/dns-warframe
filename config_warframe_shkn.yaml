@@ -13,8 +13,8 @@ dns:
     - 185.51.200.2
 
 proxies:
-  - name: "free.shecan.ir"
-    type: 
+  - name: "shekandns"
+    type: http
     server: "free.shecan.ir"
     port: 443
     tls: true
@@ -22,7 +22,7 @@ proxy-groups:
   - name: "Auto"
     type: select
     proxies:
-      - Shecan
+      - Shecandns
 
 rules:
   - DOMAIN-SUFFIX,warframe.com,Auto
